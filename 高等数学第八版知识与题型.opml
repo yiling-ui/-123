@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<opml version="2.0">
+  <head>
+    <title>同济第八版知识与题型</title>
+  </head>
+  <body>
+    <outline text="同济高等数学第八版">
+      <outline text="第一章 函数与极限">
+        <outline text="1.1 映射与函数">
+          <outline text="知识点">
+            <outline text="集合与对应关系" />
+            <outline text="单射满射双射" />
+            <outline text="定义域和值域" />
+            <outline text="函数表示法" />
+            <outline text="单调性有界性奇偶性周期性" />
+            <outline text="反函数与复合函数" />
+            <outline text="基本初等函数与初等函数" />
+            <outline text="分段函数" />
+            <outline text="隐函数与参数表示" />
+            <outline text="双曲函数及恒等式" />
+            <outline text="反双曲函数及对数表达式" />
+          </outline>
+          <outline text="题型">
+            <outline text="判断单射满射双射" />
+            <outline text="求定义域和值域" />
+            <outline text="求反函数与复合函数" />
+            <outline text="判断奇偶单调周期有界" />
+            <outline text="建立分段函数与实际函数模型" />
+            <outline text="双曲函数与反双曲函数的表达式" />
+          </outline>
+        </outline>
+        <outline text="1.2 数列的极限">
+          <outline text="知识点">
+            <outline text="ε与N定义" />
+            <outline text="收敛与发散" />
+            <outline text="极限唯一性" />
+            <outline text="收敛数列有界性" />
+            <outline text="保号性" />
+            <outline text="子数列与原数列" />
+            <outline text="数列极限与子数列的关系" />
+          </outline>
+          <outline text="题型">
+            <outline text="按定义证明数列极限" />
+            <outline text="计算数列极限" />
+            <outline text="判定数列收敛或发散" />
+            <outline text="用收敛性质证明结论" />
+            <outline text="递推数列极限" />
+          </outline>
+        </outline>
+        <outline text="1.3 函数的极限">
+          <outline text="知识点">
+            <outline text="ε与δ定义" />
+            <outline text="自变量趋于无穷" />
+            <outline text="左极限与右极限" />
+            <outline text="双侧极限存在条件" />
+            <outline text="唯一性局部有界性局部保号性" />
+          </outline>
+          <outline text="题型">
+            <outline text="按定义证明函数极限" />
+            <outline text="求左极限右极限" />
+            <outline text="判定极限存在" />
+            <outline text="证明局部有界或保号" />
+            <outline text="用不同趋近过程证明不存在" />
+          </outline>
+        </outline>
+        <outline text="1.4 无穷小与无穷大">
+          <outline text="知识点">
+            <outline text="无穷小是过程中的变量" />
+            <outline text="无穷小与极限的关系" />
+            <outline text="无穷大与倒数关系" />
+          </outline>
+          <outline text="题型">
+            <outline text="判断无穷小无穷大" />
+            <outline text="把函数写成极限加无穷小" />
+            <outline text="证明无穷小与无穷大关系" />
+          </outline>
+        </outline>
+        <outline text="1.5 极限运算法则">
+          <outline text="知识点">
+            <outline text="和差积商法则" />
+            <outline text="复合函数极限" />
+            <outline text="分母极限非零条件" />
+            <outline text="因式分解与有理化" />
+            <outline text="有限个无穷小的和" />
+            <outline text="有界函数乘无穷小" />
+          </outline>
+          <outline text="题型">
+            <outline text="代入与四则运算求极限" />
+            <outline text="因式分解消去零因子" />
+            <outline text="根式有理化" />
+            <outline text="含绝对值分段求极限" />
+            <outline text="利用已知极限求未知极限" />
+          </outline>
+        </outline>
+        <outline text="1.6 极限存在准则 两个重要极限">
+          <outline text="知识点">
+            <outline text="夹逼准则" />
+            <outline text="单调有界准则" />
+            <outline text="sinx除以x的重要极限" />
+            <outline text="指数型重要极限" />
+            <outline text="重要极限的变形" />
+          </outline>
+          <outline text="题型">
+            <outline text="夹逼求极限" />
+            <outline text="单调有界证明数列收敛" />
+            <outline text="使用三角重要极限" />
+            <outline text="使用指数型重要极限" />
+            <outline text="递推与根式数列极限" />
+          </outline>
+        </outline>
+        <outline text="1.7 无穷小的比较">
+          <outline text="知识点">
+            <outline text="高阶低阶同阶等价无穷小" />
+            <outline text="无穷小的阶" />
+            <outline text="等价替换的适用条件" />
+            <outline text="乘除替换与加减的限制" />
+          </outline>
+          <outline text="题型">
+            <outline text="比较无穷小阶数" />
+            <outline text="求使两式等价的参数" />
+            <outline text="等价无穷小计算极限" />
+            <outline text="判断替换是否有效" />
+          </outline>
+        </outline>
+        <outline text="1.8 函数的连续性与间断点">
+          <outline text="知识点">
+            <outline text="一点连续的三个条件" />
+            <outline text="左连续与右连续" />
+            <outline text="可去间断点" />
+            <outline text="跳跃间断点" />
+            <outline text="无穷间断点" />
+            <outline text="振荡间断点" />
+          </outline>
+          <outline text="题型">
+            <outline text="判定一点连续" />
+            <outline text="求分段函数连续参数" />
+            <outline text="找间断点并分类" />
+            <outline text="讨论左右连续" />
+          </outline>
+        </outline>
+        <outline text="1.9 连续函数的运算与初等函数的连续性">
+          <outline text="知识点">
+            <outline text="四则运算连续性" />
+            <outline text="复合运算连续性" />
+            <outline text="反函数连续性" />
+            <outline text="初等函数定义区间内连续" />
+          </outline>
+          <outline text="题型">
+            <outline text="利用连续性求极限" />
+            <outline text="证明复合函数连续" />
+            <outline text="确定初等函数连续区间" />
+          </outline>
+        </outline>
+        <outline text="1.10 闭区间上连续函数的性质">
+          <outline text="知识点">
+            <outline text="最大值与上确界的区别" />
+            <outline text="零点存在性" />
+            <outline text="介值性" />
+            <outline text="闭区间条件" />
+            <outline text="★一致连续与逐点连续的区别" />
+          </outline>
+          <outline text="题型">
+            <outline text="证明方程有根" />
+            <outline text="证明值域含指定值" />
+            <outline text="证明最值存在" />
+            <outline text="介值定理证明等式" />
+            <outline text="★判定与证明一致连续" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第二章 导数与微分">
+        <outline text="2.1 导数概念">
+          <outline text="知识点">
+            <outline text="差商与导数" />
+            <outline text="左导数与右导数" />
+            <outline text="切线与法线" />
+            <outline text="导数的物理意义" />
+            <outline text="可导蕴含连续" />
+            <outline text="连续不一定可导" />
+          </outline>
+          <outline text="题型">
+            <outline text="按定义求导数" />
+            <outline text="分段函数连接点可导性" />
+            <outline text="用导数定义计算极限" />
+            <outline text="求切线法线" />
+            <outline text="连续与可导的反例判断" />
+          </outline>
+        </outline>
+        <outline text="2.2 函数的求导法则">
+          <outline text="知识点">
+            <outline text="四则求导" />
+            <outline text="反函数求导" />
+            <outline text="链式法则" />
+            <outline text="基本初等函数导数" />
+            <outline text="多层复合求导" />
+            <outline text="双曲函数及反双曲函数求导" />
+            <outline text="对数求导法" />
+          </outline>
+          <outline text="题型">
+            <outline text="四则求导" />
+            <outline text="多层复合函数求导" />
+            <outline text="反函数导数" />
+            <outline text="含指数对数三角函数求导" />
+            <outline text="对数求导法处理幂指函数" />
+            <outline text="双曲函数及反双曲函数求导" />
+          </outline>
+        </outline>
+        <outline text="2.3 高阶导数">
+          <outline text="知识点">
+            <outline text="二阶与n阶导数" />
+            <outline text="高阶导数记号" />
+            <outline text="常见函数高阶导数" />
+            <outline text="★莱布尼茨高阶乘积求导公式" />
+          </outline>
+          <outline text="题型">
+            <outline text="求二阶或n阶导数" />
+            <outline text="归纳高阶导数公式" />
+            <outline text="利用乘积求高阶导数" />
+            <outline text="★莱布尼茨公式求高阶导数" />
+          </outline>
+        </outline>
+        <outline text="2.4 隐函数及由参数方程所确定的函数的导数 相关变化率">
+          <outline text="知识点">
+            <outline text="隐式关系两边求导" />
+            <outline text="参数形式一阶与二阶导数" />
+            <outline text="相关变化率建模" />
+          </outline>
+          <outline text="题型">
+            <outline text="隐函数一阶二阶导数" />
+            <outline text="参数曲线一阶二阶导数" />
+            <outline text="隐式或参数曲线切线" />
+            <outline text="相关变化率应用" />
+          </outline>
+        </outline>
+        <outline text="2.5 函数的微分">
+          <outline text="知识点">
+            <outline text="线性主部" />
+            <outline text="微分与增量" />
+            <outline text="微分形式不变性" />
+            <outline text="微分公式" />
+            <outline text="近似计算与误差" />
+          </outline>
+          <outline text="题型">
+            <outline text="求函数微分" />
+            <outline text="分段函数可微性" />
+            <outline text="用微分估算函数值" />
+            <outline text="估计绝对与相对误差" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第三章 微分中值定理与导数的应用">
+        <outline text="3.1 微分中值定理">
+          <outline text="知识点">
+            <outline text="罗尔定理条件与结论" />
+            <outline text="拉格朗日中值定理" />
+            <outline text="柯西中值定理" />
+            <outline text="辅助函数构造" />
+            <outline text="恒等式不等式与根的证明" />
+          </outline>
+          <outline text="题型">
+            <outline text="验证中值定理条件" />
+            <outline text="求或证明中值点存在" />
+            <outline text="构造辅助函数证明等式" />
+            <outline text="中值定理证明不等式" />
+            <outline text="证明根的个数与唯一性" />
+          </outline>
+        </outline>
+        <outline text="3.2 洛必达法则">
+          <outline text="知识点">
+            <outline text="零比零与无穷比无穷" />
+            <outline text="其他不定式的转化" />
+            <outline text="使用条件" />
+            <outline text="反复使用与停止条件" />
+          </outline>
+          <outline text="题型">
+            <outline text="零比零型极限" />
+            <outline text="无穷比无穷型极限" />
+            <outline text="零乘无穷型转化" />
+            <outline text="无穷减无穷型转化" />
+            <outline text="幂指不定式取对数" />
+            <outline text="判断洛必达法则能否使用" />
+          </outline>
+        </outline>
+        <outline text="3.3 泰勒公式">
+          <outline text="知识点">
+            <outline text="泰勒多项式" />
+            <outline text="佩亚诺余项" />
+            <outline text="拉格朗日余项" />
+            <outline text="麦克劳林公式" />
+            <outline text="常用函数展开" />
+            <outline text="余项估计" />
+          </outline>
+          <outline text="题型">
+            <outline text="求指定阶泰勒展开" />
+            <outline text="泰勒公式计算极限" />
+            <outline text="泰勒公式证明不等式" />
+            <outline text="近似值与余项估计" />
+          </outline>
+        </outline>
+        <outline text="3.4 函数的单调性与曲线的凹凸性">
+          <outline text="知识点">
+            <outline text="一阶导数与单调区间" />
+            <outline text="二阶导数与凹凸" />
+            <outline text="拐点候选点" />
+            <outline text="判定条件" />
+          </outline>
+          <outline text="题型">
+            <outline text="求单调区间" />
+            <outline text="证明函数或数列单调" />
+            <outline text="求凹凸区间与拐点" />
+            <outline text="参数影响单调性与凹凸性" />
+          </outline>
+        </outline>
+        <outline text="3.5 函数的极值与最大值最小值">
+          <outline text="知识点">
+            <outline text="驻点与不可导点" />
+            <outline text="极值必要条件" />
+            <outline text="一阶导数判别" />
+            <outline text="二阶导数判别" />
+            <outline text="端点与最值" />
+            <outline text="优化建模" />
+          </outline>
+          <outline text="题型">
+            <outline text="求驻点与极值" />
+            <outline text="闭区间最大最小值" />
+            <outline text="带参数极值问题" />
+            <outline text="几何经济物理优化" />
+          </outline>
+        </outline>
+        <outline text="3.6 函数图形的描绘">
+          <outline text="知识点">
+            <outline text="定义域对称性周期性" />
+            <outline text="截距与渐近线" />
+            <outline text="单调极值凹凸拐点" />
+            <outline text="综合描图" />
+          </outline>
+          <outline text="题型">
+            <outline text="求渐近线" />
+            <outline text="由函数性质描图" />
+            <outline text="由导数图像判断函数图像" />
+          </outline>
+        </outline>
+        <outline text="3.7 曲率">
+          <outline text="知识点">
+            <outline text="弧微分公式" />
+            <outline text="曲率计算" />
+            <outline text="曲率半径" />
+            <outline text="曲率圆" />
+            <outline text="★曲率中心" />
+            <outline text="★渐屈线与渐伸线" />
+            <outline text="显式与参数形式曲率公式" />
+          </outline>
+          <outline text="题型">
+            <outline text="计算显式曲线曲率" />
+            <outline text="参数曲线曲率" />
+            <outline text="求曲率半径与曲率圆" />
+            <outline text="★曲率中心与渐屈线" />
+          </outline>
+        </outline>
+        <outline text="3.8 方程的近似解">
+          <outline text="知识点">
+            <outline text="二分法的区间更新" />
+            <outline text="牛顿切线迭代" />
+            <outline text="割线迭代" />
+            <outline text="初值与停止条件" />
+          </outline>
+          <outline text="题型">
+            <outline text="二分法近似求根" />
+            <outline text="牛顿迭代求根" />
+            <outline text="割线法求根" />
+            <outline text="计算迭代值与精度" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第四章 不定积分">
+        <outline text="4.1 不定积分的概念与性质">
+          <outline text="知识点">
+            <outline text="原函数存在与积分常数" />
+            <outline text="原函数族" />
+            <outline text="基本积分公式" />
+            <outline text="线性性质" />
+          </outline>
+          <outline text="题型">
+            <outline text="求原函数或不定积分" />
+            <outline text="由原函数条件确定积分常数" />
+            <outline text="利用线性性质拆分积分" />
+          </outline>
+        </outline>
+        <outline text="4.2 换元积分法">
+          <outline text="知识点">
+            <outline text="第一类换元凑微分" />
+            <outline text="第二类换元" />
+            <outline text="三角换元" />
+            <outline text="根式换元" />
+            <outline text="换元后的还原" />
+          </outline>
+          <outline text="题型">
+            <outline text="凑微分积分" />
+            <outline text="三角恒等变形积分" />
+            <outline text="根式换元积分" />
+            <outline text="三角代换积分" />
+            <outline text="指数对数代换积分" />
+          </outline>
+        </outline>
+        <outline text="4.3 分部积分法">
+          <outline text="知识点">
+            <outline text="分部积分公式" />
+            <outline text="因子的选择" />
+            <outline text="重复分部积分" />
+            <outline text="循环积分" />
+          </outline>
+          <outline text="题型">
+            <outline text="多项式乘指数三角函数积分" />
+            <outline text="对数反三角函数积分" />
+            <outline text="重复分部积分" />
+            <outline text="循环型积分" />
+          </outline>
+        </outline>
+        <outline text="4.4 有理函数的积分">
+          <outline text="知识点">
+            <outline text="多项式除法" />
+            <outline text="真分式分解" />
+            <outline text="一次因子与不可约二次因子" />
+            <outline text="有理化代换" />
+          </outline>
+          <outline text="题型">
+            <outline text="有理真分式积分" />
+            <outline text="重一次因子部分分式" />
+            <outline text="不可约二次因子积分" />
+            <outline text="三角有理式代换" />
+            <outline text="可有理化根式积分" />
+          </outline>
+        </outline>
+        <outline text="4.5 积分表的使用">
+          <outline text="知识点">
+            <outline text="识别积分表形式" />
+            <outline text="配方与变量缩放" />
+            <outline text="参数与适用范围" />
+          </outline>
+          <outline text="题型">
+            <outline text="查表匹配积分形式" />
+            <outline text="配方缩放后查表" />
+            <outline text="验证积分结果" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第五章 定积分">
+        <outline text="5.1 定积分的概念与性质">
+          <outline text="知识点">
+            <outline text="黎曼和与分割" />
+            <outline text="定积分存在性" />
+            <outline text="积分上下限方向" />
+            <outline text="线性性与区间可加性" />
+            <outline text="保号比较估值" />
+            <outline text="积分中值定理" />
+            <outline text="近似求积" />
+            <outline text="矩形法与梯形法" />
+            <outline text="定积分与位移和路程" />
+          </outline>
+          <outline text="题型">
+            <outline text="把极限和转成定积分" />
+            <outline text="按定义求定积分" />
+            <outline text="判断积分正负与大小" />
+            <outline text="定积分不等式" />
+            <outline text="积分中值定理应用" />
+            <outline text="定积分近似计算" />
+          </outline>
+        </outline>
+        <outline text="5.2 微积分基本公式">
+          <outline text="知识点">
+            <outline text="变上限积分函数" />
+            <outline text="变上限积分求导" />
+            <outline text="复合上下限求导" />
+            <outline text="牛顿莱布尼茨公式" />
+          </outline>
+          <outline text="题型">
+            <outline text="变上限积分求导" />
+            <outline text="复合上下限求导" />
+            <outline text="积分定义的函数极值" />
+            <outline text="由积分关系确定函数" />
+            <outline text="牛顿莱布尼茨计算定积分" />
+            <outline text="分段被积函数的变上限积分" />
+            <outline text="利用积分关系求函数与参数" />
+          </outline>
+        </outline>
+        <outline text="5.3 定积分的换元法和分部积分法">
+          <outline text="知识点">
+            <outline text="换元后改变积分限" />
+            <outline text="分部积分边界项" />
+            <outline text="对称区间奇偶性" />
+            <outline text="周期性积分" />
+            <outline text="积分递推公式" />
+            <outline text="三角函数幂的定积分" />
+          </outline>
+          <outline text="题型">
+            <outline text="定积分换元" />
+            <outline text="定积分分部积分" />
+            <outline text="奇偶性与对称变换" />
+            <outline text="周期函数积分" />
+            <outline text="积分恒等式证明" />
+            <outline text="三角幂积分递推" />
+            <outline text="含绝对值的定积分分段" />
+          </outline>
+        </outline>
+        <outline text="5.4 反常积分">
+          <outline text="知识点">
+            <outline text="无穷限积分转极限" />
+            <outline text="瑕积分转极限" />
+            <outline text="内部奇点分段" />
+            <outline text="收敛与发散" />
+          </outline>
+          <outline text="题型">
+            <outline text="无穷区间反常积分计算" />
+            <outline text="瑕积分计算" />
+            <outline text="含内部奇点分段" />
+            <outline text="带参数反常积分收敛域" />
+          </outline>
+        </outline>
+        <outline text="5.5 ★ 反常积分的审敛法 Γ函数">
+          <outline text="知识点">
+            <outline text="★比较判别" />
+            <outline text="★极限比较判别" />
+            <outline text="★绝对收敛" />
+            <outline text="★Γ函数定义" />
+            <outline text="★递推关系与阶乘" />
+            <outline text="★Γ函数在半整数处的值" />
+          </outline>
+          <outline text="题型">
+            <outline text="★比较法判敛" />
+            <outline text="★极限比较判敛" />
+            <outline text="★绝对收敛判定" />
+            <outline text="★Γ函数递推与积分计算" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第六章 定积分的应用">
+        <outline text="6.1 定积分的元素法">
+          <outline text="知识点">
+            <outline text="选择微元" />
+            <outline text="建立微元表达式" />
+            <outline text="确定积分区间" />
+            <outline text="累加取极限" />
+          </outline>
+          <outline text="题型">
+            <outline text="选择积分变量与微元" />
+            <outline text="建立累积量积分表达式" />
+          </outline>
+        </outline>
+        <outline text="6.2 定积分在几何学上的应用">
+          <outline text="知识点">
+            <outline text="直角坐标面积" />
+            <outline text="极坐标面积" />
+            <outline text="旋转体体积" />
+            <outline text="已知截面体积" />
+            <outline text="直角坐标弧长" />
+            <outline text="参数与极坐标弧长" />
+            <outline text="圆盘与圆环方法" />
+            <outline text="柱壳法的积分推导" />
+            <outline text="绕非坐标轴旋转" />
+          </outline>
+          <outline text="题型">
+            <outline text="两曲线围成面积" />
+            <outline text="极坐标面积" />
+            <outline text="绕坐标轴旋转体体积" />
+            <outline text="截面面积求体积" />
+            <outline text="直角坐标参数极坐标弧长" />
+            <outline text="绕非坐标轴旋转求体积" />
+            <outline text="柱壳法求体积" />
+            <outline text="面积或体积与最优化综合" />
+          </outline>
+        </outline>
+        <outline text="6.3 定积分在物理学上的应用">
+          <outline text="知识点">
+            <outline text="变力做功" />
+            <outline text="液体压力" />
+            <outline text="引力建模" />
+            <outline text="物理量与积分变量" />
+            <outline text="提升液体与抽水做功" />
+            <outline text="非恒定引力做功" />
+            <outline text="曲线细棒引力" />
+          </outline>
+          <outline text="题型">
+            <outline text="变力做功" />
+            <outline text="气体膨胀做功" />
+            <outline text="提升液体做功" />
+            <outline text="薄板水压力" />
+            <outline text="细杆对质点引力" />
+            <outline text="非恒定引力做功" />
+            <outline text="曲线细棒引力" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第七章 微分方程">
+        <outline text="7.1 微分方程的基本概念">
+          <outline text="知识点">
+            <outline text="阶与解" />
+            <outline text="通解与特解" />
+            <outline text="初始条件" />
+            <outline text="积分曲线" />
+            <outline text="微分方程建模" />
+          </outline>
+          <outline text="题型">
+            <outline text="判断阶数与线性性" />
+            <outline text="验证给定函数是解" />
+            <outline text="由曲线族建立微分方程" />
+            <outline text="建立增长运动电路模型" />
+          </outline>
+        </outline>
+        <outline text="7.2 可分离变量的微分方程">
+          <outline text="知识点">
+            <outline text="变量分离" />
+            <outline text="两边积分" />
+            <outline text="常数解的检查" />
+            <outline text="初值确定常数" />
+          </outline>
+          <outline text="题型">
+            <outline text="分离变量求通解" />
+            <outline text="初值问题求特解" />
+            <outline text="常数解与丢失解检查" />
+            <outline text="增长衰减冷却模型" />
+          </outline>
+        </outline>
+        <outline text="7.3 齐次方程">
+          <outline text="知识点">
+            <outline text="一阶齐次型的识别" />
+            <outline text="y除以x代换" />
+            <outline text="★可化齐次的代换" />
+            <outline text="齐次型与齐次线性方程的区别" />
+          </outline>
+          <outline text="题型">
+            <outline text="识别一阶齐次方程" />
+            <outline text="代换求通解" />
+            <outline text="★平移或其他代换化齐次" />
+          </outline>
+        </outline>
+        <outline text="7.4 一阶线性微分方程">
+          <outline text="知识点">
+            <outline text="积分因子" />
+            <outline text="一阶线性通解公式" />
+            <outline text="初值问题" />
+            <outline text="★伯努利方程线性化" />
+          </outline>
+          <outline text="题型">
+            <outline text="积分因子解一阶线性方程" />
+            <outline text="由初始条件求特解" />
+            <outline text="★伯努利方程代换求解" />
+          </outline>
+        </outline>
+        <outline text="7.5 可降阶的高阶微分方程">
+          <outline text="知识点">
+            <outline text="连续积分型" />
+            <outline text="不显含y的降阶" />
+            <outline text="不显含x的降阶" />
+            <outline text="降阶后的积分常数" />
+          </outline>
+          <outline text="题型">
+            <outline text="高阶直接积分型" />
+            <outline text="缺少未知函数的降阶" />
+            <outline text="缺少自变量的降阶" />
+            <outline text="初值问题" />
+          </outline>
+        </outline>
+        <outline text="7.6 高阶线性微分方程">
+          <outline text="知识点">
+            <outline text="线性叠加原理" />
+            <outline text="解的线性无关性" />
+            <outline text="齐次与非齐次解结构" />
+            <outline text="★常数变易法" />
+            <outline text="线性无关解的个数" />
+            <outline text="非齐次方程特解的叠加" />
+          </outline>
+          <outline text="题型">
+            <outline text="判断解线性无关" />
+            <outline text="利用解结构构造通解" />
+            <outline text="齐次非齐次解关系" />
+            <outline text="★常数变易法" />
+          </outline>
+        </outline>
+        <outline text="7.7 常系数齐次线性微分方程">
+          <outline text="知识点">
+            <outline text="特征方程" />
+            <outline text="互异实根" />
+            <outline text="重根" />
+            <outline text="共轭复根" />
+            <outline text="构造通解" />
+          </outline>
+          <outline text="题型">
+            <outline text="互异实根型" />
+            <outline text="重复实根型" />
+            <outline text="共轭复根型" />
+            <outline text="高阶常系数齐次方程" />
+            <outline text="由初始条件确定常数" />
+          </outline>
+        </outline>
+        <outline text="7.8 常系数非齐次线性微分方程">
+          <outline text="知识点">
+            <outline text="指数乘多项式右端" />
+            <outline text="指数乘三角函数右端" />
+            <outline text="待定系数法" />
+            <outline text="共振与乘x修正" />
+            <outline text="通解等于齐次通解加特解" />
+          </outline>
+          <outline text="题型">
+            <outline text="指数乘多项式特解" />
+            <outline text="指数乘三角函数特解" />
+            <outline text="共振型特解修正" />
+            <outline text="非齐次初值问题" />
+            <outline text="振动与电路模型" />
+          </outline>
+        </outline>
+        <outline text="7.9 ★ 欧拉方程">
+          <outline text="知识点">
+            <outline text="★指数代换化常系数" />
+            <outline text="★特征方程求解" />
+          </outline>
+          <outline text="题型">
+            <outline text="★欧拉方程代换" />
+            <outline text="★求欧拉方程通解" />
+          </outline>
+        </outline>
+        <outline text="7.10 ★ 常系数线性微分方程组解法举例">
+          <outline text="知识点">
+            <outline text="★消元法" />
+            <outline text="★方程组初值条件" />
+          </outline>
+          <outline text="题型">
+            <outline text="★消元求线性方程组" />
+            <outline text="★方程组初值问题" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第八章 向量代数与空间解析几何">
+        <outline text="8.1 向量及其线性运算">
+          <outline text="知识点">
+            <outline text="向量相等与模" />
+            <outline text="加减与数乘" />
+            <outline text="基向量与坐标" />
+            <outline text="方向余弦" />
+            <outline text="投影" />
+            <outline text="单位向量与向径" />
+            <outline text="两点距离" />
+            <outline text="空间卦限" />
+          </outline>
+          <outline text="题型">
+            <outline text="向量线性组合" />
+            <outline text="求模方向角与投影" />
+            <outline text="求点坐标或分点坐标" />
+            <outline text="证明共线" />
+            <outline text="求单位方向向量" />
+            <outline text="空间卦限与对称点" />
+          </outline>
+        </outline>
+        <outline text="8.2 数量积 向量积 ★混合积">
+          <outline text="知识点">
+            <outline text="点积与夹角" />
+            <outline text="正交判定" />
+            <outline text="叉积与面积" />
+            <outline text="平行判定" />
+            <outline text="★混合积与体积" />
+            <outline text="★共面判定" />
+          </outline>
+          <outline text="题型">
+            <outline text="点积求夹角与投影" />
+            <outline text="正交条件求参数" />
+            <outline text="叉积求法向量与面积" />
+            <outline text="★混合积求体积" />
+            <outline text="★共面条件" />
+          </outline>
+        </outline>
+        <outline text="8.3 平面及其方程">
+          <outline text="知识点">
+            <outline text="法向量" />
+            <outline text="点法式一般式截距式" />
+            <outline text="两平面夹角" />
+            <outline text="点到平面距离" />
+            <outline text="平面束与交线" />
+          </outline>
+          <outline text="题型">
+            <outline text="由点与法向量求平面" />
+            <outline text="由三点求平面" />
+            <outline text="平面平行垂直夹角" />
+            <outline text="点面距离" />
+          </outline>
+        </outline>
+        <outline text="8.4 空间直线及其方程">
+          <outline text="知识点">
+            <outline text="方向向量" />
+            <outline text="一般式参数式对称式" />
+            <outline text="两直线关系" />
+            <outline text="线面夹角" />
+            <outline text="点到直线距离" />
+            <outline text="异面直线与公垂线" />
+          </outline>
+          <outline text="题型">
+            <outline text="由点与方向求直线" />
+            <outline text="两平面交线" />
+            <outline text="求直线夹角与线面夹角" />
+            <outline text="判断线线线面关系" />
+            <outline text="求投影与距离" />
+            <outline text="求公垂线与异面直线距离" />
+          </outline>
+        </outline>
+        <outline text="8.5 曲面及其方程">
+          <outline text="知识点">
+            <outline text="旋转曲面" />
+            <outline text="柱面" />
+            <outline text="椭球面" />
+            <outline text="双曲面" />
+            <outline text="抛物面" />
+            <outline text="截痕分析" />
+          </outline>
+          <outline text="题型">
+            <outline text="辨认二次曲面" />
+            <outline text="建立旋转曲面方程" />
+            <outline text="建立柱面方程" />
+            <outline text="截痕法分析曲面" />
+          </outline>
+        </outline>
+        <outline text="8.6 空间曲线及其方程">
+          <outline text="知识点">
+            <outline text="空间曲线交面表示" />
+            <outline text="参数表示" />
+            <outline text="消元与投影" />
+          </outline>
+          <outline text="题型">
+            <outline text="交线参数化" />
+            <outline text="参数式与一般式互化" />
+            <outline text="求坐标面投影" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第九章 多元函数微分法及其应用">
+        <outline text="9.1 多元函数的基本概念">
+          <outline text="知识点">
+            <outline text="邻域与区域" />
+            <outline text="开集闭集边界" />
+            <outline text="★n维空间" />
+            <outline text="多元极限路径依赖" />
+            <outline text="连续性与复合" />
+            <outline text="聚点与多元极限" />
+            <outline text="累次极限与二重极限的区别" />
+          </outline>
+          <outline text="题型">
+            <outline text="判断点集与区域" />
+            <outline text="求定义域" />
+            <outline text="路径法判断极限不存在" />
+            <outline text="估值法求多元极限" />
+            <outline text="讨论连续性" />
+          </outline>
+        </outline>
+        <outline text="9.2 偏导数">
+          <outline text="知识点">
+            <outline text="偏导数计算" />
+            <outline text="几何意义" />
+            <outline text="二阶与混合偏导" />
+            <outline text="混合偏导交换条件" />
+          </outline>
+          <outline text="题型">
+            <outline text="按定义求偏导" />
+            <outline text="求一阶二阶混合偏导" />
+            <outline text="分段多元函数在原点偏导" />
+            <outline text="混合偏导交换判断" />
+          </outline>
+        </outline>
+        <outline text="9.3 全微分">
+          <outline text="知识点">
+            <outline text="可微定义" />
+            <outline text="可微与连续偏导的关系" />
+            <outline text="可微与偏导存在的关系" />
+            <outline text="★误差近似" />
+          </outline>
+          <outline text="题型">
+            <outline text="按定义判可微" />
+            <outline text="利用连续偏导判可微" />
+            <outline text="求全微分" />
+            <outline text="构造偏导存在但不可微反例" />
+            <outline text="★近似值与误差" />
+          </outline>
+        </outline>
+        <outline text="9.4 多元复合函数的求导法则">
+          <outline text="知识点">
+            <outline text="链式法则" />
+            <outline text="中间变量关系图" />
+            <outline text="全导数与偏导数" />
+            <outline text="高阶复合求导" />
+            <outline text="齐次函数与欧拉关系" />
+          </outline>
+          <outline text="题型">
+            <outline text="多层复合函数偏导" />
+            <outline text="中间变量求导" />
+            <outline text="高阶复合偏导" />
+            <outline text="全微分与链式法则综合" />
+            <outline text="齐次函数欧拉关系证明" />
+          </outline>
+        </outline>
+        <outline text="9.5 隐函数的求导公式">
+          <outline text="知识点">
+            <outline text="隐函数存在条件" />
+            <outline text="单个方程求导" />
+            <outline text="方程组求导" />
+            <outline text="高阶隐式求导" />
+          </outline>
+          <outline text="题型">
+            <outline text="单方程隐函数偏导" />
+            <outline text="隐函数二阶偏导" />
+            <outline text="方程组隐函数求导" />
+          </outline>
+        </outline>
+        <outline text="9.6 多元函数微分学的几何应用">
+          <outline text="知识点">
+            <outline text="向量值函数求导" />
+            <outline text="曲线切向量" />
+            <outline text="法平面" />
+            <outline text="曲面法向量" />
+            <outline text="切平面与法线" />
+          </outline>
+          <outline text="题型">
+            <outline text="空间曲线切线与法平面" />
+            <outline text="曲面切平面与法线" />
+            <outline text="求向量值函数导数" />
+          </outline>
+        </outline>
+        <outline text="9.7 方向导数与梯度">
+          <outline text="知识点">
+            <outline text="单位方向向量" />
+            <outline text="方向导数计算" />
+            <outline text="梯度" />
+            <outline text="最大变化率" />
+            <outline text="等值面的法向" />
+          </outline>
+          <outline text="题型">
+            <outline text="沿指定方向方向导数" />
+            <outline text="求梯度" />
+            <outline text="求最大方向导数及方向" />
+            <outline text="等值面法向量" />
+          </outline>
+        </outline>
+        <outline text="9.8 多元函数的极值及其求法">
+          <outline text="知识点">
+            <outline text="驻点" />
+            <outline text="二元函数极值判别" />
+            <outline text="闭区域最值" />
+            <outline text="条件极值" />
+            <outline text="拉格朗日乘数法" />
+            <outline text="边界最值与内部驻点" />
+          </outline>
+          <outline text="题型">
+            <outline text="无条件极值判别" />
+            <outline text="区域最大最小值" />
+            <outline text="拉格朗日乘数法" />
+            <outline text="多元最优化建模" />
+          </outline>
+        </outline>
+        <outline text="9.9 ★ 二元函数的泰勒公式">
+          <outline text="知识点">
+            <outline text="★二元泰勒展开" />
+            <outline text="★二次型与极值充分条件" />
+          </outline>
+          <outline text="题型">
+            <outline text="★二元泰勒展开" />
+            <outline text="★用二次型判极值" />
+          </outline>
+        </outline>
+        <outline text="9.10 ★ 最小二乘法">
+          <outline text="知识点">
+            <outline text="★最小二乘目标" />
+            <outline text="★正规方程" />
+            <outline text="★线性拟合" />
+          </outline>
+          <outline text="题型">
+            <outline text="★直线拟合" />
+            <outline text="★最小二乘正规方程" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第十章 重积分">
+        <outline text="10.1 二重积分的概念与性质">
+          <outline text="知识点">
+            <outline text="二重积分定义" />
+            <outline text="可积性" />
+            <outline text="线性可加性" />
+            <outline text="保号估值" />
+            <outline text="中值性质" />
+          </outline>
+          <outline text="题型">
+            <outline text="把和式极限写成二重积分" />
+            <outline text="积分性质证明不等式" />
+            <outline text="比较二重积分大小" />
+            <outline text="选择区域使积分最大" />
+          </outline>
+        </outline>
+        <outline text="10.2 二重积分的计算法">
+          <outline text="知识点">
+            <outline text="先确定区域再定次序" />
+            <outline text="直角坐标累次积分" />
+            <outline text="交换积分次序" />
+            <outline text="极坐标与面积因子" />
+            <outline text="对称性" />
+            <outline text="★一般换元与雅可比" />
+          </outline>
+          <outline text="题型">
+            <outline text="先x后y与先y后x计算" />
+            <outline text="交换积分次序" />
+            <outline text="极坐标计算" />
+            <outline text="对称性简化" />
+            <outline text="★一般换元计算" />
+            <outline text="分区积分" />
+          </outline>
+        </outline>
+        <outline text="10.3 三重积分">
+          <outline text="知识点">
+            <outline text="三重积分定义" />
+            <outline text="直角坐标计算" />
+            <outline text="柱面坐标" />
+            <outline text="球面坐标" />
+            <outline text="积分次序与体积因子" />
+          </outline>
+          <outline text="题型">
+            <outline text="直角坐标三重积分" />
+            <outline text="柱面坐标三重积分" />
+            <outline text="球面坐标三重积分" />
+            <outline text="改变次序与分区" />
+          </outline>
+        </outline>
+        <outline text="10.4 重积分的应用">
+          <outline text="知识点">
+            <outline text="曲面面积元素" />
+            <outline text="质量与质心" />
+            <outline text="转动惯量" />
+            <outline text="引力分量" />
+          </outline>
+          <outline text="题型">
+            <outline text="曲面面积" />
+            <outline text="非均匀薄片或立体质量质心" />
+            <outline text="转动惯量" />
+            <outline text="引力计算" />
+          </outline>
+        </outline>
+        <outline text="10.5 ★ 含参变量的积分">
+          <outline text="知识点">
+            <outline text="★参数积分定义" />
+            <outline text="★连续性求导与积分交换条件" />
+            <outline text="★变动积分限的莱布尼茨公式" />
+          </outline>
+          <outline text="题型">
+            <outline text="★含参积分求导" />
+            <outline text="★含参积分连续性" />
+            <outline text="★用参数方法计算积分" />
+            <outline text="★变动积分限含参积分求导" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第十一章 曲线积分与曲面积分">
+        <outline text="11.1 对弧长的曲线积分">
+          <outline text="知识点">
+            <outline text="第一类曲线积分" />
+            <outline text="弧长元素" />
+            <outline text="参数化计算" />
+            <outline text="方向无关性" />
+          </outline>
+          <outline text="题型">
+            <outline text="参数曲线弧长积分" />
+            <outline text="图形与对称性简化" />
+            <outline text="曲线质量与质心" />
+          </outline>
+        </outline>
+        <outline text="11.2 对坐标的曲线积分">
+          <outline text="知识点">
+            <outline text="第二类曲线积分" />
+            <outline text="方向与符号" />
+            <outline text="参数化计算" />
+            <outline text="两类曲线积分联系" />
+          </outline>
+          <outline text="题型">
+            <outline text="参数化计算第二类曲线积分" />
+            <outline text="直线分段路径积分" />
+            <outline text="反向积分" />
+            <outline text="变力做功" />
+          </outline>
+        </outline>
+        <outline text="11.3 格林公式及其应用">
+          <outline text="知识点">
+            <outline text="正向边界" />
+            <outline text="格林公式条件" />
+            <outline text="单连通与多连通区域" />
+            <outline text="路径无关" />
+            <outline text="势函数与全微分" />
+            <outline text="★曲线积分基本定理" />
+            <outline text="全微分方程与积分因子" />
+          </outline>
+          <outline text="题型">
+            <outline text="格林公式直接计算" />
+            <outline text="补线处理开曲线" />
+            <outline text="含奇点区域处理" />
+            <outline text="判断路径无关" />
+            <outline text="求势函数与全微分原函数" />
+            <outline text="求使微分形式成为全微分的参数" />
+            <outline text="全微分方程求通解" />
+          </outline>
+        </outline>
+        <outline text="11.4 对面积的曲面积分">
+          <outline text="知识点">
+            <outline text="第一类曲面积分" />
+            <outline text="面积元素" />
+            <outline text="参数面与投影法" />
+            <outline text="对称性" />
+          </outline>
+          <outline text="题型">
+            <outline text="投影计算第一类曲面积分" />
+            <outline text="参数面面积积分" />
+            <outline text="曲面质量与对称性" />
+          </outline>
+        </outline>
+        <outline text="11.5 对坐标的曲面积分">
+          <outline text="知识点">
+            <outline text="第二类曲面积分" />
+            <outline text="曲面定向" />
+            <outline text="法向量与方向余弦" />
+            <outline text="投影计算" />
+            <outline text="两类曲面积分联系" />
+          </outline>
+          <outline text="题型">
+            <outline text="定向投影计算第二类曲面积分" />
+            <outline text="参数曲面计算" />
+            <outline text="向量场通量" />
+          </outline>
+        </outline>
+        <outline text="11.6 高斯公式 ★通量与散度">
+          <outline text="知识点">
+            <outline text="闭曲面外侧方向" />
+            <outline text="高斯公式" />
+            <outline text="补面求积分" />
+            <outline text="★散度与通量" />
+            <outline text="★零通量条件" />
+            <outline text="★拉普拉斯算子" />
+            <outline text="★格林第一与第二公式" />
+          </outline>
+          <outline text="题型">
+            <outline text="闭曲面高斯公式" />
+            <outline text="补面求通量" />
+            <outline text="含奇点挖除区域" />
+            <outline text="★散度计算" />
+            <outline text="★零通量条件" />
+            <outline text="★证明格林恒等式" />
+          </outline>
+        </outline>
+        <outline text="11.7 斯托克斯公式 ★环流量与旋度">
+          <outline text="知识点">
+            <outline text="曲面边界方向匹配" />
+            <outline text="斯托克斯公式" />
+            <outline text="★旋度与环流量" />
+            <outline text="★空间路径无关" />
+          </outline>
+          <outline text="题型">
+            <outline text="斯托克斯公式计算闭曲线积分" />
+            <outline text="选取便利曲面" />
+            <outline text="方向符号核对" />
+            <outline text="★旋度计算" />
+            <outline text="★空间路径无关" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="第十二章 无穷级数">
+        <outline text="12.1 常数项级数的概念和性质">
+          <outline text="知识点">
+            <outline text="部分和与级数收敛" />
+            <outline text="收敛必要条件" />
+            <outline text="线性运算" />
+            <outline text="增删有限项" />
+            <outline text="★柯西审敛原理" />
+            <outline text="级数分组与重排的限制" />
+          </outline>
+          <outline text="题型">
+            <outline text="按部分和求级数和" />
+            <outline text="用通项不趋零判发散" />
+            <outline text="伸缩级数求和" />
+            <outline text="利用线性与有限项性质" />
+            <outline text="★柯西审敛原理应用" />
+            <outline text="分组前后收敛性判断" />
+          </outline>
+        </outline>
+        <outline text="12.2 常数项级数的审敛法">
+          <outline text="知识点">
+            <outline text="正项级数比较判别" />
+            <outline text="极限比较" />
+            <outline text="比值判别" />
+            <outline text="根值判别" />
+            <outline text="交错级数莱布尼茨判别" />
+            <outline text="绝对与条件收敛" />
+            <outline text="★绝对收敛性质" />
+            <outline text="正项级数部分和有界判别" />
+            <outline text="交错级数截断误差" />
+          </outline>
+          <outline text="题型">
+            <outline text="比较与极限比较判敛" />
+            <outline text="比值与根值判敛" />
+            <outline text="交错级数判敛" />
+            <outline text="绝对或条件收敛" />
+            <outline text="带参数级数分类" />
+            <outline text="截断误差估计" />
+          </outline>
+        </outline>
+        <outline text="12.3 幂级数">
+          <outline text="知识点">
+            <outline text="函数项级数收敛域" />
+            <outline text="幂级数收敛半径" />
+            <outline text="端点单独判断" />
+            <outline text="和函数" />
+            <outline text="逐项求导与积分" />
+            <outline text="阿贝尔定理" />
+            <outline text="缺项幂级数与平移中心" />
+          </outline>
+          <outline text="题型">
+            <outline text="求收敛半径与收敛区间" />
+            <outline text="单独检查端点" />
+            <outline text="求和函数" />
+            <outline text="逐项求导积分求和" />
+            <outline text="缺项与非零中心幂级数收敛域" />
+          </outline>
+        </outline>
+        <outline text="12.4 函数展开成幂级数">
+          <outline text="知识点">
+            <outline text="泰勒级数" />
+            <outline text="麦克劳林级数" />
+            <outline text="展开成立条件" />
+            <outline text="直接展开法" />
+            <outline text="间接展开法" />
+          </outline>
+          <outline text="题型">
+            <outline text="直接求泰勒或麦克劳林展开" />
+            <outline text="代换构造展开" />
+            <outline text="求导积分构造展开" />
+            <outline text="指定展开点" />
+          </outline>
+        </outline>
+        <outline text="12.5 函数的幂级数展开式的应用">
+          <outline text="知识点">
+            <outline text="近似计算与误差" />
+            <outline text="微分方程幂级数解" />
+            <outline text="欧拉公式" />
+          </outline>
+          <outline text="题型">
+            <outline text="近似值与截断误差" />
+            <outline text="微分方程级数解" />
+            <outline text="欧拉公式与三角恒等式" />
+          </outline>
+        </outline>
+        <outline text="12.6 ★ 函数项级数的一致收敛性及一致收敛级数的基本性质">
+          <outline text="知识点">
+            <outline text="★一致收敛定义" />
+            <outline text="★一致收敛判别" />
+            <outline text="★连续性与逐项积分求导" />
+            <outline text="★魏尔斯特拉斯M判别法" />
+          </outline>
+          <outline text="题型">
+            <outline text="★判定一致收敛" />
+            <outline text="★一致收敛下交换极限积分求导" />
+          </outline>
+        </outline>
+        <outline text="12.7 傅里叶级数">
+          <outline text="知识点">
+            <outline text="三角函数系正交性" />
+            <outline text="傅里叶系数" />
+            <outline text="收敛定理" />
+            <outline text="周期延拓" />
+            <outline text="奇偶延拓" />
+            <outline text="正弦与余弦级数" />
+            <outline text="狄利克雷收敛条件" />
+            <outline text="间断点收敛到左右极限平均值" />
+          </outline>
+          <outline text="题型">
+            <outline text="计算傅里叶系数" />
+            <outline text="分段函数傅里叶展开" />
+            <outline text="奇偶性简化" />
+            <outline text="半区间正弦余弦展开" />
+            <outline text="收敛点处求级数和" />
+            <outline text="间断点处傅里叶级数求和" />
+          </outline>
+        </outline>
+        <outline text="12.8 一般周期函数的傅里叶级数">
+          <outline text="知识点">
+            <outline text="一般周期缩放" />
+            <outline text="系数计算" />
+            <outline text="★复数形式" />
+          </outline>
+          <outline text="题型">
+            <outline text="一般周期傅里叶展开" />
+            <outline text="周期变换" />
+            <outline text="★复指数形式系数" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="附录与基础工具">
+        <outline text="附录Ⅰ 初等数学工具">
+          <outline text="集合、区间与绝对值" />
+          <outline text="三角恒等式与三角方程" />
+          <outline text="复数的代数形式与三角形式" />
+          <outline text="多项式与因式分解" />
+          <outline text="常用不等式" />
+        </outline>
+        <outline text="附录Ⅱ 基本初等函数图像">
+          <outline text="幂函数" />
+          <outline text="指数与对数函数" />
+          <outline text="三角与反三角函数" />
+        </outline>
+        <outline text="附录Ⅲ 常用曲线">
+          <outline text="直线与圆锥曲线" />
+          <outline text="参数曲线" />
+          <outline text="极坐标曲线" />
+        </outline>
+        <outline text="附录Ⅳ 积分表">
+          <outline text="基本积分与查表" />
+          <outline text="代换归一化" />
+          <outline text="适用条件与求导验算" />
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

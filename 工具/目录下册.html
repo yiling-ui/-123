@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>高等数学 第八版 下册</title>
+    <meta charset="UTF-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-security-Policy" content="upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<meta name="keywords" content="高等教育出版社产品信息检索系统；高教社产品信息检索系统；高教社产品；高教社系统；高教社检索；高教社检索系统；高教社信息检索系统；高教社信息；产品信息检索系统；产品信息系统；信息检索系统；高教社产品系统；高教社产品检索系统"/>
+<meta name="description" content="高等教育出版社，产品信息，检索，系统，包括资源下载、样书申请、信息推送、书目下载在内的教师教学服务系统"/>
+<link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css"/>
+<link rel="stylesheet" href="/static/internal/common/css/front.css"/>
+<script src="/static/jquery/jquery.js"></script>
+<script src="/static/bootstrap/js/bootstrap.js"></script>
+<script src="/static/layer/layer.js"></script>
+<!--[if lt IE 9]>
+<script src="/static/respond/respond.js"></script>
+<script src="/static/jquery/jquery.placeholder.js"></script>
+<script src="/static/json/json2.js"></script>
+<![endif]-->
+<script>
+    window.appId = '6082593c04b5c2dab3c7f1e8';
+    window.appDomain = 'xuanshu.u2.hep.com.cn';
+    window.baseUrl = 'https://core.u2.hep.com.cn';
+    window.user = 'https://users.u2.hep.com.cn/graphql';
+    window.oauth = 'https://oauth.u2.hep.com.cn/graphql';
+    window.ctx = '';
+    window.imageCtx = 'https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com';
+    window.fixedTopHeight = 120;
+</script>
+<script src="/static/internal/common/js/common.js?v=20260820"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?fbec258952e854d110faf4241b905d55";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script><script src="/static/internal/front/bookDetails.js?value=4"></script>
+
+</head>
+<body>
+<script type="text/javascript" src="/static/internal/front/frontHeader.js"></script>
+<script src="https://cdn.authing.co/packages/authing-sso/1.x/AuthingSSO.umd.min.js"></script>
+<script type="text/javascript" src="/static/internal/login/js/login.js?v=20210527"></script>
+<script type="text/javascript">
+    </script>
+<script type="text/javascript" src="/static/internal/front/bookWords.js"></script>
+<script>
+    var isTrue = 'false' === 'true';
+    var isSearch = 'false' === 'true';
+</script>
+<header>
+    <style>
+         div.labelListPnal{display:none;position:absolute;height:150px;width:217px;z-index:10;background:#fff;border:1px solid #ccc;overflow:auto;}
+        .labelListPnal li{list-style:none;height:25px;line-height:25px;padding:0px;margin:0px auto;padding-left:10px;cursor:pointer;width:410px;overflow:hidden;}
+        .labelListPnal_ul li.labelLiOver{background:#ccc;color:#fff;}
+    </style>
+    <div class="header-holder"></div>
+    <div class="navbar-fixed-top">
+        <div class="front-top">
+<input type="hidden" id="CXGFlg" value="null"/>
+            <div class="container">
+                <ul class="front-top-nav">
+                    <li><a href="javascript:login();">登录</a></li>
+                    <li><a href="javascript:register();">注册</a></li>
+                    <li><a href="/front/bibliography/findBibliographies">书目下载</a></li>
+                    <li><a href="/front/common/contactUs">联系我们</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">移动端</a>
+                        <ul class="dropdown-menu dropdown-menu-left">
+                            <li>
+                                <div class="p-5 text-center">扫码关注-登录移动端</div>
+                                <img src="/static/internal/common/image/qrcode.jpg" style="width: 150px;height:150px"/>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a target="_blank" href="/static/internal/helpCenter/help.html">帮助中心</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="front-head">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#head-collapse-nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">
+                            <img src="/static/internal/common/image/logo.png">
+                            <h1>高等教育出版社产品信息检索系统</h1>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="head-collapse-nav">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="/front/book/findBookProducts" target="_blank">图书产品</a></li>
+                            <li ><a href="/front/book/findDigitizationBooks" target="_blank">数字化产品</a></li>
+                            <li ><a href="/front/periodical/findPeriodicalInfoList" target="_blank">期刊产品</a></li>
+                            <li ><a href="/front/meeting/findMeetingInfos" target="_blank">会议信息</a></li>
+                            <li ><a href="https://ebook.hep.com.cn/index.html#/list/ebook?id=91" target="_blank">电子书</a></li>
+                            <li ><a href="/front/bookFair/findOnlineBookFairs" target="_blank">线上书展</a></li>
+                            </ul>
+                        <form action="/front/book/bookSearch" class="navbar-form navbar-right">
+                            <div class="input-group">
+                                <input name="wd" class="form-control" placeholder="标题/名称/作者/ISBN/物料号" autocomplete="off" onfocus="labelPnalShow(this)" onkeyup="labelPnalKeyUp(event)" onblur="labelPnalShow(this)" id="labelInput" maxlength="20">
+                                <span class="input-group-addon">
+                                    <button class="btn btn-default">
+                                        <i>&#57352;</i>
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="labelListPnal" style="top:49px;">
+                                <ul id="labelListPnal_ul">
+                                </ul>
+                            </div>
+                        </form>
+                        </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<a href="#" class="go-top">
+    <i>&#57383;</i>
+    <span>顶部</span>
+</a><script>
+
+    
+    let auth = new AuthingSSO({
+        // OIDC 应用 ID
+        appId: appId,
+        // OIDC 应用认证地址
+        appDomain: appDomain,
+        baseUrl: baseUrl,
+        redirectUrl:window.location.href,
+        host: {
+            user: user,
+            oauth: oauth,
+        }
+    });
+    window.onload = async function () {
+        let res = await auth.trackSession();
+        if (res.session !== null) {
+            $.request(ctx + "/auth/checkLogin",
+                {"token": res.userInfo.token},
+                function (dataCheck) {
+                    if (dataCheck.result == 1) {
+                        location.reload();
+                    }
+                    else if (dataCheck.result == 0 || dataCheck.result == 2) {
+                        
+                            if (dataCheck.result == 0) {
+
+                                // alert(dataCheck.message);
+                                auth.logout();
+                            }
+                        
+                    }
+                },
+                function () {
+                    auth.logout();
+                }
+            );
+        } else {
+            auth.logout();
+            
+        }
+
+    };
+</script>
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="/">首页</a></li>
+        <li><a href="/front/book/findBookProducts">图书产品</a></li>
+        <li class="active">
+            高等数学 第八版 下册</li>
+    </ol>
+    <input id="reloadFlg" type="hidden" value="true"/>
+    <div class="plate">
+        <div class="book-detail-info row pt-10">
+            <div class="col-md-4 col-xs-4">
+                <div class="book-frame">
+                    <div class="book-detail-image">
+                        <div id="carousel-advertisement" class="mt-30 carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-advertisement" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-advertisement" data-slide-to="1" class=""></li>
+                                    </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <video id="video0" name="video" controls preload="auto" width="228px" height="324px">
+                                            <source src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/video/2024-01-26w/58981-00,58868-00,59802-00,60421-00,60422-00.mp4" type="video/mp4">
+                                        </video>
+                                        </div>
+                                    <div class="item">
+                                        <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab6c0c2e4b05d4b585540c6.jpg"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="left carousel-control" href="#carousel-advertisement" data-slide="prev">
+                                <i class="icon-prev">&#57381;</i>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-advertisement" data-slide="next">
+                                <i class="icon-next">&#57382;</i>
+                            </a>
+                        </div>
+                    <div class="book-share">
+                        <div class="bshare-custom">
+                            <div class="bsPromo bsPromo2"></div>
+                            <a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a>
+                            <a title="分享到QQ好友" class="bshare-qqim" href="javascript:void(0);"></a>
+                            <a title="分享到QQ空间" class="bshare-qzone"></a>
+                            <a title="分享到豆瓣" class="bshare-douban" href="javascript:void(0);"></a>
+                            <a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+                        </div>
+                        <div id="favorite">
+                            <i class="orange">&#57354;</i>
+                            <span>收藏</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="col-md-8 col-xs-8">
+                <h1 class="mt-10">
+                    高等数学 第八版 下册</h1>
+                <div class="row mt-10">
+                    <div class="col-md-8 col-sm-8 lh-25 pt-5">
+                        “十一五”国家规划教材</div>
+                    <div class="col-md-4 col-sm-4 wrap">
+                        <div class="labels">
+                            <a class="chapter" href="javascript:void(0)" onclick="$.previewBook('62bc8b97938b7cc2960eebb7')">样章</a><a class="cloud"></a><img src="/static/internal/common/image/50video.png" style="padding-left:20px;width: 45px;height: 25px; display: block;" title="视频介绍" /></div>
+                    </div>
+                </div>
+                <hr class="mt-10 dashed"/>
+                <div class="row mt-10 black2">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">作者：</div>
+                            <div class="col-md-8 col-xs-8">
+                                同济大学数学科学学院</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">定价：</div>
+                            <div class="col-md-8 col-xs-8 red">
+                                46.50 元</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">版面字数：</div>
+                            <div class="col-md-8 col-xs-8">
+                                420.00千字</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">开本：</div>
+                            <div class="col-md-8 col-xs-8">
+                                16开</div>
+                        </div>
+<div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">装帧形式：</div>
+                            <div class="col-md-8 col-xs-8">
+                                平装</div>
+                        </div>
+<div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">页数：</div>
+                            <div class="col-md-8 col-xs-8">
+                                352</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4 lh-20">最新<br>印次时间：</div>
+                            <div class="col-md-8 col-xs-8 lh-40">
+                                2026年08月</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">ISBN：</div>
+                            <div class="col-md-8 col-xs-8">
+                                978-7-04-058868-2</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">物料号：</div>
+                            <div class="col-md-8 col-xs-8">
+                                58868-00</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">出版时间：</div>
+                            <div class="col-md-8 col-xs-8">
+                                2023-06-07</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">读者对象：</div>
+                            <div class="col-md-8 col-xs-8">
+                                高等教育</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">一级分类：</div>
+                            <div class="col-md-8 col-xs-8">
+                                数学与统计学类</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">二级分类：</div>
+                            <div class="col-md-8 col-xs-8">
+                                理工类专业数学基础课</div>
+                        </div>
+                        <div class="row lh-30">
+                            <div class="col-md-4 col-xs-4">三级分类：</div>
+                            <div class="col-md-8 col-xs-8">
+                                高等数学</div>
+                        </div>
+                        </div>
+                </div>
+                <hr class="mt-10 dashed" style="display: none;"/>
+                <div id="buy" class="mt-20" style="display: none;">
+                    <label id="sale" class="black3">购买：</label>
+<a href="javascript:buyHistory(0, 'https://mall.hep.com.cn/index.php/search.php?keywords=58868-00');" class="lanchang mr-15" style="background: url('/static/internal/common/image/mall_ico.png') no-repeat;"></a>
+<a href="javascript:buyHistory(1, 'https://item.jd.com/10120072813286.html');" class="jingdong mr-15"></a>
+                    <a href="javascript:buyHistory(2, 'http://product.dangdang.com/29587469.html');" class="dangdang mr-15"></a>
+                    <a href="javascript:buyHistory(4, 'https://detail.tmall.com/item.htm?id=723305409107');"><img src="/static/internal/common/image/tm.png"  class="mr-15" height="15px"/></a>
+                    <a href="javascript:buyHistory(5, 'https://weidian.com/item.html?itemID=6381518358');"><img src="/static/internal/common/image/wd.png"  class="mr-15" height="15px"/></a>
+                    <input id="wuliao" type="hidden" value="58868-00"/>
+                    <input id="wbs" type="hidden" value="12-03210-046"/>
+                    <input id="isbn" type="hidden" value="978-7-04-058868-2"/>
+                    <input id="qrcodeSize" type="hidden" value="0"/>
+                </div>
+                <hr class="mt-20 dashed"/>
+                <div class="mt-20">
+                    <div class="form-inline">
+                        <input id="book-id" type="hidden" value="62bc8b97938b7cc2960eebb7"/>
+                        <label class="black3">册数：</label>
+                        <div class="form-group mr-20" style="width: 120px" readonly="readonly">
+                            <div class="input-group">
+                                <div class="input-group-btn">
+                                        <button  id="sub-book-num" class="btn btn-default" style="border-right:0;">-</button>
+                                    </div>
+                                <input id="book-num" class="form-control text-center" value="1"  >
+                                <div class="input-group-btn">
+                                        <button  id="add-book-num" class="btn btn-default">+</button>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <button id="apply-sample-book" type="button" class="btn btn-default pl-30 pr-30 mr-20">
+                                我想申请样书
+                            </button>
+                            <button onclick="$.previewBook('62bc8b97938b7cc2960eebb7')"
+                                    id="preview-book" type="button" class="btn btn-default pl-30 pr-30">
+                                样章试读
+                            </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="plate mt-30">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#introduce" data-toggle="tab">图书详情</a>
+            </li>
+
+            <li class="split">|</li>
+            <li><a href="#catalog" data-toggle="tab">图书目录</a></li>
+
+            <li class="split">|</li>
+            <li>
+                <a href="#resource" data-toggle="tab">数字化资源</a>
+            </li>
+            <input type="hidden" id="hasQrcodeResource" value="false">
+            </ul>
+        <div class="tab-content p-20 lh-25">
+            <div id="introduce" class="tab-pane fade in active">
+                <p>﻿本书是同济大学数学科学学院编《高等数学》第八版，内容深广度符合2014年版“工科类本科数学基础课程教学基本要求”，适合高等院校工科类各专业教学使用。</p><p>本书第七版曾获首届全国教材建设奖全国优秀教材特等奖，在保持原书结构合理、逻辑清晰、叙述严谨、例题丰富等特色的基础上，对第七版进行了一次细心的修订：少数地方作了一些必要的修改，个别章节补充了例题；对习题进行了适当的调整和补充，更换了少量习题；附录增加了一些初等数学内容介绍；增加了可通过扫描二维码查阅的释疑解难、例题精讲等数字教学资源。经过修订，本书更加完善，能更好地满足当前的教学需要。</p><p>本书分上、下两册出版，下册包括向量代数与空间解析几何、多元函数微分法及其应用、重积分、曲线积分与曲面积分、无穷级数等内容，书末还附有部分习题参考答案与提示。</p></div>
+
+            <div id="catalog" class="tab-pane fade">
+                <ul><li>目录<ul class="pl-40"><li>第八章 向量代数与空间解析几何<ul class="pl-40"><li>第一节 向量及其线性运算<ul class="pl-40"><li>一、向量的概念<ul class="pl-40"></ul></li><li>二、向量的线性运算<ul class="pl-40"></ul></li><li>三、空间直角坐标系<ul class="pl-40"></ul></li><li>四、利用坐标作向量的线性运算<ul class="pl-40"></ul></li><li>五、向量的模、方向角、投影<ul class="pl-40"></ul></li><li>习题8-1<ul class="pl-40"></ul></li></ul></li><li>第二节 数量积 向量积 *混合积<ul class="pl-40"><li>一、两向量的数量积<ul class="pl-40"></ul></li><li>二、两向量的向量积<ul class="pl-40"></ul></li><li>*三、向量的混合积<ul class="pl-40"></ul></li><li>习题8-2<ul class="pl-40"></ul></li></ul></li><li>第三节 平面及其方程<ul class="pl-40"><li>一、曲面方程与空间曲线方程的概念<ul class="pl-40"></ul></li><li>二、平面的点法式方程<ul class="pl-40"></ul></li><li>三、平面的一般方程<ul class="pl-40"></ul></li><li>四、两平面的夹角<ul class="pl-40"></ul></li><li>习题8-3<ul class="pl-40"></ul></li></ul></li><li>第四节 空间直线及其方程<ul class="pl-40"><li>一、空间直线的一般方程<ul class="pl-40"></ul></li><li>二、空间直线的对称式方程与参数方程<ul class="pl-40"></ul></li><li>三、两直线的夹角<ul class="pl-40"></ul></li><li>四、直线与平面的夹角<ul class="pl-40"></ul></li><li>五、杂例<ul class="pl-40"></ul></li><li>习题8-4<ul class="pl-40"></ul></li></ul></li><li>第五节 曲面及其方程<ul class="pl-40"><li>一、曲面研究的基本问题<ul class="pl-40"></ul></li><li>二、旋转曲面<ul class="pl-40"></ul></li><li>三、柱面<ul class="pl-40"></ul></li><li>四、二次曲面<ul class="pl-40"></ul></li><li>习题8-5<ul class="pl-40"></ul></li></ul></li><li>第六节 空间曲线及其方程<ul class="pl-40"><li>一、空间曲线的一般方程<ul class="pl-40"></ul></li><li>二、空间曲线的参数方程<ul class="pl-40"></ul></li><li>三、空间曲线在坐标面上的投影<ul class="pl-40"></ul></li><li>习题8-6<ul class="pl-40"></ul></li></ul></li><li>总习题八<ul class="pl-40"></ul></li></ul></li><li>第九章 多元函数微分法及其应用<ul class="pl-40"><li>第一节 多元函数的基本概念<ul class="pl-40"><li>一、平面点集 *n维空间<ul class="pl-40"></ul></li><li>二、多元函数的概念<ul class="pl-40"></ul></li><li>三、多元函数的极限<ul class="pl-40"></ul></li><li>四、多元函数的连续性<ul class="pl-40"></ul></li><li>习题9-1<ul class="pl-40"></ul></li></ul></li><li>第二节 偏导数<ul class="pl-40"><li>一、偏导数的定义及其计算法<ul class="pl-40"></ul></li><li>二、高阶偏导数<ul class="pl-40"></ul></li><li>习题9-2<ul class="pl-40"></ul></li></ul></li><li>第三节 全微分<ul class="pl-40"><li>一、全微分的定义<ul class="pl-40"></ul></li><li>*二、全微分在近似计算中的应用<ul class="pl-40"></ul></li><li>习题9-3<ul class="pl-40"></ul></li></ul></li><li>第四节 多元复合函数的求导法则<ul class="pl-40"><li>习题9-4<ul class="pl-40"></ul></li></ul></li><li>第五节 隐函数的求导公式<ul class="pl-40"><li>一、一个方程的情形<ul class="pl-40"></ul></li><li>二、方程组的情形<ul class="pl-40"></ul></li><li>习题9-5<ul class="pl-40"></ul></li></ul></li><li>第六节 多元函数微分学的几何应用<ul class="pl-40"><li>一、一元向量值函数及其导数<ul class="pl-40"></ul></li><li>二、空间曲线的切线与法平面<ul class="pl-40"></ul></li><li>三、曲面的切平面与法线<ul class="pl-40"></ul></li><li>习题9-6<ul class="pl-40"></ul></li></ul></li><li>第七节 方向导数与梯度<ul class="pl-40"><li>一、方向导数<ul class="pl-40"></ul></li><li>二、梯度<ul class="pl-40"></ul></li><li>习题9-7<ul class="pl-40"></ul></li></ul></li><li>第八节 多元函数的极值及其求法<ul class="pl-40"><li>一、多元函数的极值及最大值与最小值<ul class="pl-40"></ul></li><li>二、条件极值 拉格朗日乘数法<ul class="pl-40"></ul></li><li>习题9-8<ul class="pl-40"></ul></li></ul></li><li>*第九节 二元函数的泰勒公式<ul class="pl-40"><li>一、二元函数的泰勒公式<ul class="pl-40"></ul></li><li>二、极值充分条件的证明<ul class="pl-40"></ul></li><li>*习题9-9<ul class="pl-40"></ul></li></ul></li><li>*第十节 最小二乘法<ul class="pl-40"><li>*习题9-10<ul class="pl-40"></ul></li></ul></li><li>总习题九<ul class="pl-40"></ul></li></ul></li><li>第十章 重积分<ul class="pl-40"><li>第一节 二重积分的概念与性质<ul class="pl-40"><li>一、二重积分的概念<ul class="pl-40"></ul></li><li>二、二重积分的性质<ul class="pl-40"></ul></li><li>习题10-1<ul class="pl-40"></ul></li></ul></li><li>第二节 二重积分的计算法<ul class="pl-40"><li>一、利用直角坐标计算二重积分<ul class="pl-40"></ul></li><li>二、利用极坐标计算二重积分<ul class="pl-40"></ul></li><li>*三、二重积分的换元法<ul class="pl-40"></ul></li><li>习题10-2<ul class="pl-40"></ul></li></ul></li><li>第三节 三重积分<ul class="pl-40"><li>一、三重积分的概念<ul class="pl-40"></ul></li><li>二、三重积分的计算<ul class="pl-40"></ul></li><li>习题10-3<ul class="pl-40"></ul></li></ul></li><li>第四节 重积分的应用<ul class="pl-40"><li>一、曲面的面积<ul class="pl-40"></ul></li><li>二、质心<ul class="pl-40"></ul></li><li>三、转动惯量<ul class="pl-40"></ul></li><li>四、引力<ul class="pl-40"></ul></li><li>习题10-4<ul class="pl-40"></ul></li></ul></li><li>*第五节 含参变量的积分<ul class="pl-40"><li>*习题10-5<ul class="pl-40"></ul></li></ul></li><li>总习题十<ul class="pl-40"></ul></li></ul></li><li>第十一章 曲线积分与曲面积分<ul class="pl-40"><li>第一节 对弧长的曲线积分<ul class="pl-40"><li>一、对弧长的曲线积分的概念与性质<ul class="pl-40"></ul></li><li>二、对弧长的曲线积分的计算法<ul class="pl-40"></ul></li><li>习题11-1<ul class="pl-40"></ul></li></ul></li><li>第二节 对坐标的曲线积分<ul class="pl-40"><li>一、对坐标的曲线积分的概念与性质<ul class="pl-40"></ul></li><li>二、对坐标的曲线积分的计算法<ul class="pl-40"></ul></li><li>三、两类曲线积分之间的联系<ul class="pl-40"></ul></li><li>习题11-2<ul class="pl-40"></ul></li></ul></li><li>第三节 格林公式及其应用<ul class="pl-40"><li>一、格林公式<ul class="pl-40"></ul></li><li>二、平面上曲线积分与路径无关的条件<ul class="pl-40"></ul></li><li>三、二元函数的全微分求积<ul class="pl-40"></ul></li><li>*四、曲线积分的基本定理<ul class="pl-40"></ul></li><li>习题11-3<ul class="pl-40"></ul></li></ul></li><li>第四节 对面积的曲面积分<ul class="pl-40"><li>一、对面积的曲面积分的概念与性质<ul class="pl-40"></ul></li><li>二、对面积的曲面积分的计算法<ul class="pl-40"></ul></li><li>习题11-4<ul class="pl-40"></ul></li></ul></li><li>第五节 对坐标的曲面积分<ul class="pl-40"><li>一、对坐标的曲面积分的概念与性质<ul class="pl-40"></ul></li><li>二、对坐标的曲面积分的计算法<ul class="pl-40"></ul></li><li>三、两类曲面积分之间的联系<ul class="pl-40"></ul></li><li>习题11-5<ul class="pl-40"></ul></li></ul></li><li>第六节 高斯公式 *通量与散度<ul class="pl-40"><li>一、高斯公式<ul class="pl-40"></ul></li><li>*二、沿任意闭曲面的曲面积分为零的条件<ul class="pl-40"></ul></li><li>*三、通量与散度<ul class="pl-40"></ul></li><li>习题11-6<ul class="pl-40"></ul></li></ul></li><li>第七节 斯托克斯公式 *环流量与旋度<ul class="pl-40"><li>一、斯托克斯公式<ul class="pl-40"></ul></li><li>*二、空间曲线积分与路径无关的条件<ul class="pl-40"></ul></li><li>*三、环流量与旋度<ul class="pl-40"></ul></li><li>习题11-7<ul class="pl-40"></ul></li></ul></li><li>总习题十一<ul class="pl-40"></ul></li></ul></li><li>第十二章 无穷级数<ul class="pl-40"><li>第一节 常数项级数的概念和性质<ul class="pl-40"><li>一、常数项级数的概念<ul class="pl-40"></ul></li><li>二、收敛级数的基本性质<ul class="pl-40"></ul></li><li>*三、柯西审敛原理<ul class="pl-40"></ul></li><li>习题12-1<ul class="pl-40"></ul></li></ul></li><li>第二节 常数项级数的审敛法<ul class="pl-40"><li>一、正项级数及其审敛法<ul class="pl-40"></ul></li><li>二、交错级数及其审敛法<ul class="pl-40"></ul></li><li>三、绝对收敛与条件收敛<ul class="pl-40"></ul></li><li>*四、绝对收敛级数的性质<ul class="pl-40"></ul></li><li>习题12-2<ul class="pl-40"></ul></li></ul></li><li>第三节 幂级数<ul class="pl-40"><li>一、函数项级数的概念<ul class="pl-40"></ul></li><li>二、幂级数及其收敛性<ul class="pl-40"></ul></li><li>三、幂级数的运算<ul class="pl-40"></ul></li><li>习题12-3<ul class="pl-40"></ul></li></ul></li><li>第四节 函数展开成幂级数<ul class="pl-40"><li>习题12-4<ul class="pl-40"></ul></li></ul></li><li>第五节 函数的幂级数展开式的应用<ul class="pl-40"><li>一、近似计算<ul class="pl-40"></ul></li><li>二、微分方程的幂级数解法<ul class="pl-40"></ul></li><li>三、欧拉公式<ul class="pl-40"></ul></li><li>习题12-5<ul class="pl-40"></ul></li></ul></li><li>*第六节 函数项级数的一致收敛性及一致收敛级数的基本性质<ul class="pl-40"><li>一、函数项级数的一致收敛性<ul class="pl-40"></ul></li><li>二、一致收敛级数的基本性质<ul class="pl-40"></ul></li><li>*习题12-6<ul class="pl-40"></ul></li></ul></li><li>第七节 傅里叶级数<ul class="pl-40"><li>一、三角级数 三角函数系的正交性<ul class="pl-40"></ul></li><li>二、函数展开成傅里叶级数<ul class="pl-40"></ul></li><li>三、正弦级数和余弦级数<ul class="pl-40"></ul></li><li>习题12-7<ul class="pl-40"></ul></li></ul></li><li>第八节 一般周期函数的傅里叶级数<ul class="pl-40"><li>一、周期为2l的周期函数的傅里叶级数<ul class="pl-40"></ul></li><li>*二、傅里叶级数的复数形式<ul class="pl-40"></ul></li><li>习题12-8<ul class="pl-40"></ul></li></ul></li><li>总习题十二<ul class="pl-40"></ul></li></ul></li><li>部分习题参考答案与提示<ul class="pl-40"></ul></li></ul></li></ul></div>
+
+            <div id="resource" class="tab-pane fade">
+                <div class='ptb-10'><div class='right'><a class="orange" href="javascript:downloadRes('TEACHER_RESOURCE');"><i>&#57347;</i></a></div><div><a href="javascript:downloadRes('TEACHER_RESOURCE');">同济《高等数学》第八版ppt</a></div></div><hr class='dashed'/></div>
+            </div>
+    </div>
+
+    <div class="plate mt-30">
+        <h2 class="pt-10 pb-15 pl-25 f-14">相关图书</h2>
+        <hr>
+        <div class="carousel-books">
+            <i class="carousel-left">&#57385;</i>
+            <i class="carousel-right">&#57386;</i>
+            <div class="carousel-box">
+                <div class="wrap">
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cf5dc3ba9eb884cf822784" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab70837e4b05d4b5857f70f.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cf5dc3ba9eb884cf822784">
+                                高等数学证明题500例解析</a>
+                        </h3>
+                        <h4>
+                            徐兵</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">29.20 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cf5dc3ba9eb884cf822784')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59ccbe0aba9eb884cf817f5a" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab6cebde4b05d4b5855d53a.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59ccbe0aba9eb884cf817f5a">
+                                高等数学（上册）</a>
+                        </h3>
+                        <h4>
+                            叶仲泉 王新质</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">25.00 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59ccbe0aba9eb884cf817f5a')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59ccc09cba9eb884cf817ffa" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab6cea0e4b05d4b5855d465.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59ccc09cba9eb884cf817ffa">
+                                高等数学（下册）</a>
+                        </h3>
+                        <h4>
+                            段正敏 易正俊</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">27.60 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59ccc09cba9eb884cf817ffa')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cd11d1ba9eb884cf818cd4" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab705b6e4b05d4b5857c593.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cd11d1ba9eb884cf818cd4">
+                                高等数学教程（下册）</a>
+                        </h3>
+                        <h4>
+                            毛京中</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">32.50 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cd11d1ba9eb884cf818cd4')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cd11d8ba9eb884cf818cd6" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab705aee4b05d4b5857c524.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cd11d8ba9eb884cf818cd6">
+                                高等数学（上册）</a>
+                        </h3>
+                        <h4>
+                            刘光旭 张效成 赖学坚</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">25.30 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cd11d8ba9eb884cf818cd6')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cd100aba9eb884cf818c28" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab705c8e4b05d4b5857c6b5.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cd100aba9eb884cf818c28">
+                                微积分（下册）</a>
+                        </h3>
+                        <h4>
+                            宣立新</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">32.30 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cd100aba9eb884cf818c28')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cf3ffbba9eb884cf821da2" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab6f155e4b05d4b58573134.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cf3ffbba9eb884cf821da2">
+                                微积分学(第三版)(下册)</a>
+                        </h3>
+                        <h4>
+                            华中科技大学数学系</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">20.60 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cf3ffbba9eb884cf821da2')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cd12ddba9eb884cf818d28" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab70832e4b05d4b5857f6d5.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cd12ddba9eb884cf818d28">
+                                高等数学学习辅导与习题选解(本科少学时类型)(同济·第3版)</a>
+                        </h3>
+                        <h4>
+                            同济大学数学系</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">20.00 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cd12ddba9eb884cf818d28')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cfa20fba9eb884cf824226" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab705a1e4b05d4b5857c3f3.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cfa20fba9eb884cf824226">
+                                微积分（第二版）（下册）</a>
+                        </h3>
+                        <h4>
+                            傅英定 谢云荪</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">25.30 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cfa20fba9eb884cf824226')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cd4b19ba9eb884cf819bac" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab70588e4b05d4b5857c2e1.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cd4b19ba9eb884cf819bac">
+                                高等数学（下册）</a>
+                        </h3>
+                        <h4>
+                            王全迪 郭艾 杨立洪</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">42.50 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cd4b19ba9eb884cf819bac')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cd3695ba9eb884cf8195a0" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab703f8e4b05d4b5857b9fa.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cd3695ba9eb884cf8195a0">
+                                高等数学(上册)</a>
+                        </h3>
+                        <h4>
+                            殷锡鸣</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">46.00 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cd3695ba9eb884cf8195a0')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cf7ca6ba9eb884cf823354" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab705dce4b05d4b5857c7ea.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cf7ca6ba9eb884cf823354">
+                                高等数学（上册）</a>
+                        </h3>
+                        <h4>
+                            齐民友</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">40.10 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cf7ca6ba9eb884cf823354')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cf0e77ba9eb884cf8205c8" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab707c0e4b05d4b5857eeed.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cf0e77ba9eb884cf8205c8">
+                                高等数学（第2册）（第4版）（换封面）</a>
+                        </h3>
+                        <h4>
+                            四川大学数学学院高等数学教研室</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">34.20 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cf0e77ba9eb884cf8205c8')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cf7caaba9eb884cf823356" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab705b3e4b05d4b5857c56a.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cf7caaba9eb884cf823356">
+                                高等数学（下册）</a>
+                        </h3>
+                        <h4>
+                            齐民友</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">42.60 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cf7caaba9eb884cf823356')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <a href="/front/book/findBookDetails?bookId=59cd38cfba9eb884cf81968c" class="image">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2026-09-4w/6ab70857e4b05d4b5857f8e2.jpg"/>
+                        </a>
+                        <h3>
+                            <a href="/front/book/findBookDetails?bookId=59cd38cfba9eb884cf81968c">
+                                微积分（第三版）下册</a>
+                        </h3>
+                        <h4>
+                            同济大学数学系</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">39.40 元</span>
+                            <a class="black2" href="javascript:favoriteBook('59cd38cfba9eb884cf81968c')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="plate mt-30">
+        <h2 class="pt-10 pb-15 pl-25 f-14">相关数字化产品</h2>
+        <hr>
+        <div class="carousel-books">
+            <i class="carousel-left">&#57385;</i>
+            <i class="carousel-right">&#57386;</i>
+            <div class="carousel-box">
+                <div class="wrap">
+                    <div class="book-info" style="">
+                        <a href="/front/product/findProductDetails?productId=63462f430cf2327327e4ae2f" class="image" style="line-height: 143px;">
+                            <img src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/product/2022-10-3w/634633280cf2327327e4b0a1.png" style="height: auto;max-height: 240px;display: table-cell"/>
+                        </a>
+                        <h3>
+                            <a href="/front/product/findProductDetails?productId=63462f430cf2327327e4ae2f">
+                                高等数学在线测评及组卷系统</a>
+                        </h3>
+                        <h4>
+                            高等数学在线测评及组卷系统研制组</h4>
+                        <div class="mt-10 f-12">
+                            <span class="red mr-15">60000.00 元</span>
+                            <a class="black2" href="javascript:favoriteDigitalRes('63462f430cf2327327e4ae2f')">
+                                <i class="orange mr-5">&#57354;</i>收藏
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<link rel="stylesheet" href="/static/ztree/css/zTreeStyle/zTreeStyle.css"/>
+<link rel="stylesheet" href="/static/ztree/css/hepStyle/hepStyle.css"/>
+<script src="/static/ztree/js/jquery.ztree.hep.js"></script>
+<script src="/static/doT/doT.js"></script>
+<script src="/static/jquery/jquery.form.js"></script>
+<script id="address-template" type="text/html">
+    {{ if(it.length === 0) { }}
+    <td colspan="5">
+        <h3 class="ptb-20 text-center black3">您还没有收货地址，请使用新地址！</h3>
+    </td>
+    {{ } }}
+    {{ $.each(it, function(i){ }}
+    <tr>
+        <td>
+            {{ if(this.isDefaultAddress) { }}
+            <input value="{{=this.id}}" name="address" type="radio" checked/>
+            {{ } else { }}
+            <input value="{{=this.id}}" name="address" type="radio"/>
+            {{ } }}
+        </td>
+        <td>{{!this.deliveryUser}}</td>
+        <td>
+            {{ $.each(this.areas, function(i) { if(i === 0) { return; } }}
+            {{!this.areaName}}
+            {{ }); }}
+            {{!this.detailAddress}}
+        </td>
+        <td>{{!this.contactWay}}</td>
+        <td>
+            {{ if(this.isDefaultAddress) { }}
+            <span class="label label-success">默认地址</span>
+            {{ } }}
+        </td>
+    </tr>
+    {{ }); }}
+</script>
+<div id="modal-address" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <i>&#57370;</i>
+                </button>
+                <h4 class="modal-title">选择收货地址</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <table class="simple-table check-table th-center td-center">
+                        <colgroup>
+                            <col width="40"/>
+                            <col width="110"/>
+                            <col/>
+                            <col width="110"/>
+                            <col width="100"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>收货人</th>
+                            <th>地址</th>
+                            <th>联系方式</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody id="address-content">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-20">
+                    <button id="add-new-address" class="btn btn-default blue border-blue">
+                        <i>&#57348;</i>
+                        <span>使用新地址</span>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-info" id="execute-apply">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal-new-address" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <form action="/front/user/createDeliveryAddress" method="post" id="address-form" class="form-inline">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i>&#57370;</i>
+                    </button>
+                    <h4 class="modal-title">使用新地址</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <table class="form-table">
+                            <colgroup>
+                                <col width="100"/>
+                                <col/>
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <td>所在地区</td>
+                                <td>
+                                    <div class="selector form-control dropdown">
+                                        <div class="placeholder" data-placeholder="请选择" data-toggle="dropdown">请选择</div>
+                                        <i class="dropdown">&#57361;</i>
+                                        <input name="areaPath" type="hidden"/>
+                                        <div class="dropdown-tree">
+                                            <ul class="ztree" data-min-level="2" data-name-key="areaName" data-url="/public/findNormalAreas"></ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="top">详细地址</td>
+                                <td><textarea name="detailAddress" style="width: 100%" placeholder="请输入详细地址" class="form-control"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>收货人</td>
+                                <td><input name="deliveryUser" placeholder="请输入收货人" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td>联系电话</td>
+                                <td><input name="contactWay" placeholder="请输入联系电话" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="middle">设为默认</span>
+                                </td>
+                                <td>
+                                    <label>
+                                        <input name="isDefaultAddress" value="true" type="checkbox"/>
+                                        <span class="middle">设为默认收货地址</span>
+                                    </label>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button class="btn btn-info">确定</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="front-bottom">
+        <div class="container">
+            <p>秉承一贯的严谨态度，为您提供优质产品</p>
+            <p><img src="/static/internal/common/image/hep-qrcode.jpg"></p>
+            <p class="black3">客服邮箱：jsxt@hep.com.cn</p>
+        </div>
+    </div>
+    <div class="front-bottom bg-black0">
+        <div class="container black3">
+            <p>高等教育出版社 版权所有</p>
+            <p>京ICP备12020869号 京公网安备11010802014853</p>
+        </div>
+    </div>
+</footer></body>
+</html>

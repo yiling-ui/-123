@@ -1,0 +1,80 @@
+<div id="math-detail-map">
+  <style>
+    #math-detail-map {color:var(--foreground); width:100%;}
+    #math-detail-map .map-head {display:flex; align-items:center; gap:16px; flex-wrap:wrap; padding:8px 0 18px;}
+    #math-detail-map .map-head h2 {margin:0;}
+    #math-detail-map .chapter-picker {display:grid; gap:6px; flex:1; min-width:220px; max-width:420px;}
+    #math-detail-map .legend {display:flex; flex-wrap:wrap; gap:16px; margin:0 0 20px; color:var(--muted-foreground);}
+    #math-detail-map .map-tree {display:grid; grid-template-columns:140px minmax(0,1fr); gap:28px; align-items:start;}
+    #math-detail-map .chapter-root {padding:18px 0; position:relative;}
+    #math-detail-map .chapter-root h3 {margin:0 0 10px;}
+    #math-detail-map .chapter-root::after {content:"";position:absolute;right:-28px;top:30px;width:28px;border-top:1px solid var(--border);}
+    #math-detail-map .section-tree {border-left:1px solid var(--border);padding-left:22px;}
+    #math-detail-map .section-node {position:relative;padding:0 0 12px;}
+    #math-detail-map .section-node::before {content:"";position:absolute;left:-23px;top:22px;width:22px;border-top:1px solid var(--border);}
+    #math-detail-map summary {padding:12px 0;overflow-wrap:anywhere;}
+    #math-detail-map .section-code {color:var(--muted-foreground);margin-right:8px;}
+    #math-detail-map .branches {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;padding:8px 0 16px 18px;}
+    #math-detail-map .branch {border-left:1px solid var(--border);padding-left:16px;min-width:0;}
+    #math-detail-map .branch-label {display:flex;align-items:center;gap:8px;margin-bottom:12px;font-weight:500;}
+    #math-detail-map .mark {width:8px;height:8px;border-radius:50%;background:var(--viz-series-1);flex-shrink:0;}
+    #math-detail-map .types .mark {background:var(--viz-series-2);}
+    #math-detail-map .leaf {position:relative;margin:0 0 10px;overflow-wrap:anywhere;}
+    #math-detail-map .leaf::before {content:"";position:absolute;left:-17px;top:9px;width:10px;border-top:1px solid var(--border);}
+    #math-detail-map .leaf-kind {display:inline-block;color:var(--muted-foreground);margin-right:6px;}
+    #math-detail-map .evidence {margin:12px 0 0;color:var(--muted-foreground);}
+    #math-detail-map .appendix {border-top:1px solid var(--border);margin-top:16px;padding-top:10px;}
+    @media(max-width:560px) {
+      #math-detail-map .map-tree {grid-template-columns:minmax(0,1fr);gap:4px;}
+      #math-detail-map .chapter-root {padding:4px 0 12px;}
+      #math-detail-map .chapter-root::after {display:none;}
+      #math-detail-map .branches {grid-template-columns:minmax(0,1fr);gap:12px;padding-left:6px;}
+      #math-detail-map .section-tree {padding-left:16px;}
+      #math-detail-map .section-node::before {left:-17px;width:16px;}
+    }
+  </style>
+  <div class="map-head">
+    <h2>高等数学 · 知识与题型</h2>
+    <label class="chapter-picker"><span class="form-label">同济第八版 · 章节</span><select class="form-select" id="math-chapter-select" aria-label="选择章节"></select></label>
+  </div>
+  <div class="legend text-small"><span>知识点 → 定义、定理、方法、条件</span><span>题型 → 判断、计算、证明、应用</span><span>★ 教材星号内容</span></div>
+  <div class="map-tree">
+    <div class="chapter-root" id="math-root-label"></div>
+    <div class="section-tree" id="math-section-tree" aria-live="polite"></div>
+  </div>
+  <details class="appendix"><summary class="cursor-interaction">附录与基础工具</summary><div id="math-appendix-leaves"></div></details>
+  <script>
+    (()=>{
+      const root=document.getElementById('math-detail-map');
+      const data=__MATH_DATA__;
+      const select=root.querySelector('#math-chapter-select');
+      const tree=root.querySelector('#math-section-tree');
+      const title=root.querySelector('#math-root-label');
+      let selected=0, openSections=new Set(['1.1']);
+      function element(tag,text,cls) {const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
+      data.chapters.forEach((c,i)=>{const o=element('option',c.title);o.value=String(i);select.appendChild(o);});
+      function save(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{chapter:data.chapters[selected].title},privateContent:{chapter:selected,open:[...openSections]}}).catch(()=>{});}
+      function restore(state){const p=state?.privateContent;if(p&&Number.isInteger(p.chapter)&&data.chapters[p.chapter]){selected=p.chapter;openSections=new Set(Array.isArray(p.open)?p.open:[]);}}
+      function draw(){
+        select.value=String(selected);const c=data.chapters[selected];title.replaceChildren(element('h3',c.title));
+        title.append(element('div',c.volume+' · '+c.sections.length+'节','text-small'));
+        title.append(element('div','教材印刷页 '+c.printPages,'evidence text-small'));
+        tree.replaceChildren();
+        c.sections.forEach(s=>{
+          const details=element('details',undefined,'section-node');details.open=openSections.has(s.id);
+          const summary=element('summary',undefined,'cursor-interaction');summary.append(element('span',s.id,'section-code text-small'),document.createTextNode(s.title));details.append(summary);
+          const branches=element('div',undefined,'branches');
+          [['知识点',s.knowledge,'knowledge'],['题型',s.types,'types']].forEach(([label,items,kind])=>{
+            const branch=element('div',undefined,'branch '+kind);const header=element('div',undefined,'branch-label');header.append(element('span',undefined,'mark'),element('span',label));branch.append(header);
+            items.forEach((item,i)=>{const leaf=element('div',undefined,'leaf');if(kind==='types')leaf.append(element('span',String(i+1).padStart(2,'0'),'leaf-kind text-small'));leaf.append(document.createTextNode(item));branch.append(leaf);});branches.append(branch);
+          });details.append(branches);
+          details.addEventListener('toggle',()=>{if(details.open)openSections.add(s.id);else openSections.delete(s.id);save();});tree.append(details);
+        });
+      }
+      restore(window.openai?.widgetState);draw();
+      select.addEventListener('change',()=>{selected=Number(select.value);openSections=new Set([data.chapters[selected].sections[0].id]);draw();save();});
+      window.addEventListener('openai:set_globals',event=>{restore(event.detail?.globals?.widgetState);draw();});
+      const appendix=root.querySelector('#math-appendix-leaves');data.appendix.forEach(a=>{const d=element('details');d.append(element('summary',a.title,'cursor-interaction'));a.points.forEach(p=>d.append(element('div',p,'leaf')));appendix.append(d);});
+    })();
+  </script>
+</div>

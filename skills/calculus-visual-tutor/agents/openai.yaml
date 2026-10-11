@@ -1,0 +1,4 @@
+interface:
+  display_name: "高数图解教学"
+  short_description: "参考普林斯顿的直观讲法，用数学图解释同济高数难点并衔接例题与证明"
+  default_prompt: "使用 $calculus-visual-tutor，用图解释我正在学习的高数难点，再给一个例题和一道理解检查题。"
